@@ -1,0 +1,31 @@
+{
+  "name": "custom-storybook-demo",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@storybook/addon-actions": "^6.2.0-beta.13",
+    "@storybook/addon-essentials": "^6.2.0-beta.13",
+    "@storybook/addon-links": "^6.2.0-beta.13",
+    "@storybook/vue3": "^6.2.0-beta.13",
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^9",
+    "babel-loader": "^8.2.2",
+    "postcss": "^7",
+    "storybook-dark-mode": "^1.0.7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "vite": "^2.1.0",
+    "vue-loader": "^16.1.2"
+  }
+}
